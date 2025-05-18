@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+body {
+    background-color: #ABBEAD;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ABBEAD;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: #266071;
+    margin: 0;
+    font-family: 'Lemonada', cursive;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+  }
+  
+  .auth-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .auth-icon:hover {
+    transform: scale(1.1);
+  }
+
+nav {
+    background-color: #759175;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.main-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ABBEAD;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #759175;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    color: #266071;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#mood-slider {
+    width: 90%;
+    -webkit-appearance: none;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, red, rgb(190, 190, 120), green);
+    outline: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+
+#mood-slider:hover {
+    opacity: 1;
+}
+#mood-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#mood-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.bad { color: red; }
+.neutral { color: black; }
+.good { color: green; }
+
+.checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.record-btn {
+    background-color: #759175;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.record-btn:hover {
+    background-color: #5d7a5d;
+}
+
+.consultation-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.consultation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.consultation-form label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.consultation-form input,
+.consultation-form select {
+    padding: 10px;
+    border: 1px solid #759175;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 98%;
+}
+
+/* Радіокнопки */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.radio-group input {
+    margin-right: 5px;
+}
+
+/* Кнопка */
+.consultation-form button {
+    background-color: #759175;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #5c7b5c;
+}
+
+/* Психологи */
+.psychologists-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.psychologists-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #266071;
+}
+
+.psychologist-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ABBEAD;
+}
+
+.psychologist-card:last-child {
+    border-bottom: none;
+}
+
+.psychologist-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #759175;
+}
+
+.psychologist-info {
+    text-align: left;
+    flex: 1;
+}
+
+.psychologist-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #266071;
+}
+
+.psychologist-info p {
+    margin: 5px 0 0;
+    color: #333;
+}
+
+.warning-box {
+    background-color: #ABBEAD;
+    color: #000000;
+    border: 1px solid #ABBEAD;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.warning-box .highlight-link {
+    color: #266071;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.warning-box .highlight-link:hover {
+    color: #266071;
+}
